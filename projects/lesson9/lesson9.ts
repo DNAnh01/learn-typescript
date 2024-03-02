@@ -1,5 +1,5 @@
-let name2: string = ` và "Hỏi Dân IT"`;
-let name3 = `Eric ${name2}`; //template strings js
+let firstString: string = `looking at the computer"`;
+let secondString = `Eric is ${firstString}`;
 
-console.log(">>> check name = ", name3)
-// Eric và "Hỏi Dân IT"
+console.log(">>> check firstString: ", firstString);
+console.log(">>> check secondString: ", secondString);

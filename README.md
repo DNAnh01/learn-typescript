@@ -213,3 +213,25 @@ let price: number = 10;
 // Gán giá trị sau khi khai báo
 let price = 6.69;
 ```
+
+#### 9. String Type
+
+Tương tự JavaScript, TypeScript cho phép sử dụng dấu nháy kép (") hoặc đơn (') để khai báo chuỗi (string).
+
+Ví dụ:
+
+```typescript
+let firstName: string = "ABC";
+let fullName: string;
+
+fullName = "DEF";
+```
+
+Ngoài ra, bạn có thể sử dụng dấu backtick (`) để khai báo chuỗi nhiều dòng:
+
+```typescript
+let test = `abc
+def`;
+
+let mine: string = `my name is ${fullName}`;
+```
