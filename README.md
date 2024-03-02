@@ -9,7 +9,7 @@
   </ul>
 </details>
 
-#### 4 Why TypeScript
+#### 4. Why TypeScript
 
 TS với hệ thống
 
@@ -32,7 +32,7 @@ name = false; typeof === boolean
 
 - Cho ra sai kết quả (nếu truyền vào sai type) => cần code bổ sung validate => typescript sinh ra để khắc phục nhược điểm trên.
 
-#### 5 TypeScript Types
+#### 5. TypeScript Types
 
 ##### 5.1. Type là gì ?
 
@@ -192,3 +192,24 @@ let count = 0; // OK! TypeScript sẽ tự động suy luận và gán kiểu `n
 - Muốn ép kiểu trả về giá trị mong muốn.
 
 [`Lưu ý về viết chữ Hoa/Thường khi định nghĩa type`](https://stackoverflow.com/questions/14727044/what-is-the-difference-between-types-string-and-string)
+
+#### 8. Number Type
+
+Tương tự JavaScript, TypeScript kế thừa kiểu dữ liệu number
+
+###### Ví dụ
+
+```typescript
+let a = 9.69; // typeof a === "number"
+let b = 10; // typeof b === "number"
+```
+
+```typescript
+let price: number; // Khai báo biến `price` kiểu `number` mà không khởi tạo giá trị ban đầu
+
+// Hoặc gán giá trị ngay sau khi khai báo
+let price: number = 10;
+
+// Gán giá trị sau khi khai báo
+let price = 6.69;
+```
