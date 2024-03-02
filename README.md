@@ -3,9 +3,9 @@
 <details>
   <summary>Tài liệu tham khảo</summary>
   <ul>
-    <li><a href="https://www.youtube.com/playlist?list=PLncHg6Kn2JT5emvXmG6kgeGkrQjRqxsb4">Full playlist here</a></li>
-    <li><a href="https://drive.google.com/file/d/1fSByxnd8dHwaCM48zmh80iSRObVx2xin/view">Document</a></li>
-    <li><a href="https://www.youtube.com/watch?v=E6k6R4PnLV0">How to install NVM on Windows 11</a></li>
+    <li><a href="https://www.youtube.com/watch?v=30LWjhZzg50&t=8075s">course from freeCodeCamp</a></li>
+    <li><a href="https://www.youtube.com/playlist?list=PLncHg6Kn2JT5emvXmG6kgeGkrQjRqxsb4">course from HoiDanIT</a></li>
+    <li><a href="https://drive.google.com/file/d/1fSByxnd8dHwaCM48zmh80iSRObVx2xin/view">document from HoiDanIT</a></li>
   </ul>
 </details>
 
@@ -147,3 +147,48 @@ person = { name: "John Doe", age: 30 };
 - Keyword Type cho phép khai báo kiểu dữ liệu cho biến, giúp tăng tính an toàn và bảo mật cho code.
 - TypeScript hỗ trợ nhiều kiểu dữ liệu đa dạng, bao gồm cả kiểu dữ liệu nguyên thủy và kiểu dữ liệu tham chiếu.
 - Sử dụng cú pháp và quy tắc phù hợp để khai báo các biến với kiểu dữ liệu mong muốn.
+
+#### 7. Type Inference - Tự động gán type
+
+##### 7.1. Tự động gán type
+
+Khi khai báo biến với TypeScript:
+
+- `Thường`: Gán type cho biến để đảm bảo tính chính xác và an toàn cho code. Ví dụ:
+
+```typescript
+let count: number; // Khởi tạo biến `count` kiểu `number` mà không có giá trị khởi tạo
+```
+
+- `Đôi khi`: Viết code theo kiểu JavaScript:
+
+```typescript
+let count = 0; // OK! TypeScript sẽ tự động suy luận và gán kiểu `number` cho biến `count`.
+```
+
+##### 7.2. Type inference vs. Type annotations
+
+###### Type inference:
+
+- Typescript sử dụng thuật toán để `đoán` kiểu dữ liệu của biến dựa vào giá trị được gán.
+
+###### Type annotations:
+
+- Cho phép định nghĩa chính xác kiểu dữ liệu của biến.
+
+##### 7.3. Khi nào sử dụng Type inference?
+
+###### Sử dụng Type inference khi:
+
+- Muốn tiết kiệm thời gian và cú pháp khi khai báo biến đơn giản.
+- Biến được gán giá trị ngay sau khi khai báo.
+
+##### 7.4. Khi nào sử dụng Type annotations?
+
+###### Sử dụng Type annotations khi:
+
+- Khai báo biến và gán giá trị cho nó ngay sau đó.
+- Ép kiểu cho biến (không muốn tự động gán type).
+- Muốn ép kiểu trả về giá trị mong muốn.
+
+[`Lưu ý về viết chữ Hoa/Thường khi định nghĩa type`](https://stackoverflow.com/questions/14727044/what-is-the-difference-between-types-string-and-string)

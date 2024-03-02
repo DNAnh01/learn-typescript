@@ -1,7 +1,17 @@
-let count: string = "Hoi Dan IT";
+let question: string = "why do you learn English?";
 
-console.log(">>> check count 0 = ", count)
+console.log(">>> check question: ", question);
 
-let test = ['eric', 'hoi danit', 'typescirpt', 96];
+let anotherArr = ["bookshelf", "shelves", "machine", 96];
 
-test.push(25);
+anotherArr.push(25);
+
+console.log(">>> check anotherArr: ", anotherArr);
+
+let message = "looking at some information on the board";
+
+message = "taking a picture";
+message = "talking on the phone";
+message = "having a conversation";
+
+console.log(">>> check message: ", message);

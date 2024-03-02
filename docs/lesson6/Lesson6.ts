@@ -1,8 +1,8 @@
-let count1 = 1; //ok
+let count2: number = 1; //ok
 
 // count1 = 'name'; //error ?
 
-console.log(">>> check name: ")
+console.log(">>> check name: ");
 
-let names1 = ['Eric', 'Hỏi Dân IT', 'Typescript'] // array chỉ bao gồm string
+let names1 = ["Eric", "Hỏi Dân IT", "Typescript"]; // array chỉ bao gồm string
 // names1.push(25) //error ?
