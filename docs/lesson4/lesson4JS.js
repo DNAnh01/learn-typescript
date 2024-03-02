@@ -4,7 +4,7 @@ const sum = (x, y) => {
     return x + y;
 }
 
-sum(5, 10); //15
+console.log(sum(5, 10)); //15
 
 //need to validate
 const sum2 = (x, y) => {
