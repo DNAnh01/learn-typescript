@@ -1,20 +1,9 @@
-// let person: object;
-
-// let mine3 = {name : 'hoi dan it'}
-
-// person = { name: 'Eric'};
-// person = 'Eric'
-
-// let pro = {
-//     name: "Eric", //string
-//     age: 25 //age
-// }
-
-let pro1: {
-    name: string,
-    age: number
+let json1: {
+  message: string;
+  status: number;
 } = {
-    name: "Eric", //string
-    age: 25 //age
-}
+  message: "sign up successfully",
+  status: 20,
+};
 
+console.log(json1);

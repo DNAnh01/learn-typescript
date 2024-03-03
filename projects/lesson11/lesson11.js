@@ -1,6 +1,5 @@
-let mine = {};
-mine = { name: "Eric" };
-
-mine.address = "Hỏi Dân IT";
-
-console.log(">>> check mine: ", mine)
+var json = {
+    message: "sign up successfully",
+    status: 20
+};
+console.log(json);
