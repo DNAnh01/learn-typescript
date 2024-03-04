@@ -1,7 +1,11 @@
-let test: (number | string)[] = ['hoi dan it', 69];
+let array: (string | number | boolean)[] = [
+  "consider",
+  "shy",
+  "amazing",
+  1,
+  2,
+  3,
+  true,
+];
 
-test.push('hoi dan it');
-
-test.push(25);
-
-console.log(">>> check array: ", test)
+console.log(array);
